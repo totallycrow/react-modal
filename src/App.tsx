@@ -23,7 +23,7 @@ function App() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
               corrupti adipisci quasi quas culpa illum, non assumenda digniss
             </p>
-          </div>{" "}
+          </div>
         </ModalContent>
         <ModalFooter callToActionLabel={"Success"} />
       </Modal>
