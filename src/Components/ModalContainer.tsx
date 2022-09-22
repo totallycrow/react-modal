@@ -19,8 +19,11 @@ export default function ModalContainer({ isOpen, children }: ModalProps) {
           closeModal();
         }}
       >
-        {/* Stop Modal from closing when clicking within modal body itself */}
-        <div className="modal-body" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="modal-body"
+          // Stop Modal from closing when clicking within modal content body itself
+          onClick={(e) => e.stopPropagation()}
+        >
           {children}
         </div>
       </div>
