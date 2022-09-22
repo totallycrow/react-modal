@@ -1,0 +1,56 @@
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  animation: appear 0.5s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-body {
+  height: 50%;
+  width: 50%;
+  background-color: #2f2f2f;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25%;
+  padding: 2rem;
+  color: #f2f3f5;
+}
+
+.safari-lock {
+  position: fixed;
+  touch-action: none;
+}
+
+.test {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.btn {
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
